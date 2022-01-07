@@ -15,40 +15,17 @@ const connectData = require("../database/connectDB");
 // connect to database
 connectData();
 
-const appPath = path.join(__dirname, "..", "react-app/build");
-// console.log("app path is: ", appPath);
-
-//app.use(express.static(appPath));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-
-app.use(express.static(path.join(__dirname, "..", "react-app/build")));
 
 if (process.env.NODE_ENV === 'production') {
     console.log("Production mode");
     app.use(express.static(path.join(__dirname, "..", "react-app/build")));
-    //
     app.get('*', (req, res) => {
-        res.sendFile(path.join(__dirname = "../react-app/build/index.html"));
-    })
+        res.sendFile(path.join(__dirname, "..", "react-app/build/index.html"));
+    });
 }
 console.log("Developement mode");
-//build mode
-app.get('*', (req, res) => {
-    console.log("received");
-    res.sendFile(path.join(__dirname, "..", "react-app/public/index.html"));
-})
-
-const admin = require('firebase-admin');
-const { getAuth } = require("firebase/auth");
-
-// const serviceAccount = require(process.env.GOOGLE_APPLICATION_CREDENTIALS);
-// console.log(serviceAccount);
-
-admin.initializeApp({
-    credential: admin.credential.cert(process.env.GOOGLE_APPLICATION_CREDENTIALS),
-    databaseURL: process.env.db_URL
-});
 
 // console.log(path.join(appPath, "index.html"));
 
