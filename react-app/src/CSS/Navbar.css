@@ -1,0 +1,35 @@
+navbar {
+    position: fixed;
+}
+
+.nav-container {
+    background-color: white;
+    color: #ffb4a2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
+
+li {
+    font-family: 'Sora', sans-serif;
+    font-weight: 500;
+    margin: 0px 10px 0px 10px;
+}
+
+li:hover {
+    background-color: #fae1dd;
+}
+
+.web-app-title {
+    font-family: 'Sora', sans-serif;
+    font-weight: 200;
+}
+
+.login-control {
+    color: #ffb4a2;
+}
+
+.signup-control {
+    color: #ffb4a2;
+}

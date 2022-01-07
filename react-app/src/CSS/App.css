@@ -1,0 +1,19 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.body-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .footer-section {
+  margin-top: auto;
+} */
+
+.spaced-footer {
+  flex-grow: 1;
+}

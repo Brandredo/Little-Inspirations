@@ -1,0 +1,50 @@
+.loginSubmit {
+    background-color: red;
+    width: 150px;
+}
+
+.loginSubmitText {
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-header {
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: xxx-large;
+}
+
+.form-input-container {
+    min-width: 500px;
+    max-width: 510px;
+}
+
+.container-form {
+    padding: 100px;
+    flex-direction: column;
+}
+
+.address-section-header {
+    font-family: 'Sora', sans-serif;
+    font-weight: 300;
+    font-size: large;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 5px;
+}
+
+.alternative-controls {
+    font-family: 'Sora', sans-serif;
+}
+
+.alt-span-login-text {
+    font-weight: 300;
+}
+
+.alt-forgotpass-text {
+    font-weight: 300;
+    text-align: center;
+}
+
+.show-pass button {
+    font-family: 'Sora', sans-serif;
+    font-weight: 300;
+}

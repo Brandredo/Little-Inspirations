@@ -1,0 +1,63 @@
+.contact-header {
+  font-family: "Sora", sans-serif;
+  font-weight: 500;
+  font-size: xxx-large;
+  grid-area: one;
+}
+
+.container {
+  margin-top: 200px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: "one two";
+  grid-template-columns: 2fr 1fr;
+}
+
+input {
+  height: 50px;
+}
+
+#description {
+  height: 50%;
+}
+
+.form-container {
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.form-section {
+  margin-top: 80px;
+  grid-area: one;
+  width: 80%;
+}
+
+.alt-controls {
+  justify-self: center;
+  align-self: center;
+  grid-area: two;
+}
+
+.create-account-link {
+  font-family: "Sora", sans-serif;
+  font-weight: 500;
+  font-size: large;
+}
+
+.forgot-password-link {
+  font-family: "Sora", sans-serif;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: large;
+}
+
+.submit-button {
+  margin-top: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}

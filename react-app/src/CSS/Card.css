@@ -1,0 +1,26 @@
+.card-container-outer {
+  width: 600px;
+  height: min-content;
+  margin-bottom: 20px;
+}
+
+.card-content {
+  padding: 10px;
+  text-align: center;
+}
+
+.card-title {
+  font-weight: 500;
+  font-family: "Sora", sans-serif;
+  font-size: xx-large;
+  padding-bottom: 5px;
+  border-bottom: #f7b801 solid 2px;
+  text-align: center;
+  color: #f7b801;
+}
+
+.about-content {
+  font-family: "Sora", sans-serif;
+  font-weight: 300;
+  color: lightslategray;
+}

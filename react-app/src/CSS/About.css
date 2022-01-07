@@ -1,0 +1,34 @@
+.about {
+  background-color: red;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.jen-photo {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 35%;
+  top: 150px;
+}
+
+.color-temp1 {
+  background-color: #cdb4db;
+  height: 300px;
+  width: 100%;
+}
+
+.biography {
+  /* height: 200px;
+    width: 100%; */
+}
+
+.card {
+  /* justify-self: center; */
+}

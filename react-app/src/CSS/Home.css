@@ -1,0 +1,156 @@
+.container-outer {
+    margin-top: 65px;
+}
+
+.main-container {
+    /* justify-items: center; */
+   
+}
+
+
+/* @media (max-width: 1024px) {
+    .introduction-content {
+        grid-template-areas: 
+            'one'
+            'two';
+    }
+
+    .daily-program-content {
+        grid-template-areas: 
+        'one'
+        'two';
+    }
+
+    .philosophy-content {
+        grid-template-areas: 
+        'one'
+        'two';
+    }
+} */
+
+
+.philosophy-content {
+    margin-top: 15px;
+    display: grid;
+    background-color: #ffb4a2;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'one two';
+    height: 800px;
+}
+
+.philosophy-content > .row-header {
+    
+    grid-area: one;
+    align-self: center;
+    justify-self: center;
+    font-family: 'Sora', sans-serif;
+    font-size: 3rem;
+    color: black;
+    z-index: 9999;
+    /* background-color: aqua !important; */
+}
+
+
+.philosophy-content > .shape {
+    background: white;
+    grid-area: one;
+    width: 400px;
+    height: 400px;
+    align-self: center;
+    justify-self: center;
+    margin-left: 230px;
+    margin-top: 50px;
+    /* https://getcssscan.com/css-box-shadow-examples */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.philosophy-content > .row-content {
+    
+    grid-area: two;
+    align-self: center;
+    justify-self: center;
+    font-family: 'Sora', sans-serif;
+    word-wrap: break-word;
+    text-align: center;
+    /* background-color: aqua !important; */
+}
+
+.row-content-text {
+    width: 70%;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+    opacity: 1;
+}
+
+.daily-program-content {
+   
+    margin-top: 15px;
+    background-color: #d8e2dc;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'one two';
+}
+
+.daily-program-content > .row-header {
+
+    grid-area: one;
+    align-self: center;
+    justify-self: center;
+    font-family: 'Sora', sans-serif;
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+.daily-program-content > .row-content {
+    grid-area: two;
+    align-self: center;
+    justify-self: center;
+    font-family: 'Sora', sans-serif;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+
+.introduction-content {
+
+    margin-top: 15px;
+    background-color: #fec89a;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'one two';
+
+}
+
+.introduction-content > .row-header {
+    grid-area: one;
+    align-self: center;
+    justify-self: center;
+    font-family: 'Sora', sans-serif;
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.introduction-content > .row-content {
+    grid-area: two;
+    align-self: center;
+    justify-self: center;
+    font-family: 'Sora', sans-serif;
+    word-wrap: break-word;
+    text-align: center;
+}
+

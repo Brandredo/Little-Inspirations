@@ -1,0 +1,43 @@
+
+
+.image-container {
+    width: 70%;
+    display: grid;
+}
+
+.image-container > * {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.front-image-text {
+    font-size: 1.75vw;
+    align-self: end;
+    justify-self: center;
+}
+
+
+.image-header-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+.signup-button-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: green;
+    text-decoration: none;
+    margin: 10px 0px 10px 0px;
+}
+
+.signup-button-link:hover {
+    color: green;
+}
+
+.join-today-text {
+    font-size: 0.8vw;
+    background-color: white;
+    padding: 10px;
+    
+}
